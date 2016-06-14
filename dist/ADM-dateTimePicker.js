@@ -1486,6 +1486,10 @@
                     monthsNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
                     daysNames: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
                 },
+                gregorian_pl: {
+                    monthsNames: ['Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień'],
+                    daysNames: ['Pn', 'Wt', 'Śr', 'Czw', 'Pt', 'Sb', 'Nd']
+                },                
                 jalali: {
                     monthsNames: ['فروردین', 'اردیبهشت', 'خرداد', 'تیر', 'مرداد', 'شهریور', 'مهر', 'آبان', 'آذر', 'دی', 'بهمن', 'اسفند'],
                     daysNames: ['ش', 'ی', 'د', 'س', 'چ', 'پ', 'ج']
