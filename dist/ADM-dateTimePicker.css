@@ -819,7 +819,7 @@ a:hover {
 .ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer {
   position: absolute;
   display: block;
-  width: 5.5em;
+  width: 6.2em;
   height: 1.7em;
   right: 0;
   overflow: hidden;
@@ -865,17 +865,70 @@ a:hover {
 }
 /* line 540, ../scss/ADM-dateTimePicker.scss */
 .ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer p.jalali {
+  -moz-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+}
+/* line 540, ../scss/ADM-dateTimePicker.scss */
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer p.gregorian {
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
 }
 /* line 547, ../scss/ADM-dateTimePicker.scss */
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.gregorian_pl p.gregorian {
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.gregorian_pl p.jalali {
+  -moz-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  -webkit-transform: translateY(200%);
+  transform: translateY(200%);
+}
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.gregorian_pl p.gregorian_pl {
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.gregorian p.gregorian {
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.gregorian p.gregorian_pl {
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.gregorian p.jalali {
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+
 .ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.jalali p.gregorian {
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
+}
+.ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.jalali p.gregorian_pl {
+  -moz-transform: translateY(-200%);
+  -ms-transform: translateY(-200%);
+  -webkit-transform: translateY(-200%);
+  transform: translateY(-200%);
 }
 /* line 550, ../scss/ADM-dateTimePicker.scss */
 .ADMdtp-container .ADMdtp-calendar-container footer .calTypeContainer.jalali p.jalali {
